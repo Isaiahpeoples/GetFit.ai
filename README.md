@@ -6,27 +6,58 @@
 </ul>
 </div>
 
-<br>
+<div align="center">
 
-A modern AI fitness assistant that delivers personalized workouts, meal plans, and real-time coaching through voice interaction—built with cutting-edge tech like Gemini AI, Vapi, and Next.js to help users achieve healthier lives effortlessly.
+[![Built With](https://img.shields.io/badge/Built_with-Next.js-brightgreen)](https://nextjs.org/)
+[![Gemini AI](https://img.shields.io/badge/AI-Gemini_AI-brightgreen)](https://ai.google.dev/gemini-api)
+[![Clerk Auth](https://img.shields.io/badge/Auth-Clerk-brightgreen)](https://clerk.com/)
+[![Voice Enabled](https://img.shields.io/badge/Voice_Via-Vapi-brightgreen)](https://vapi.ai/)
+[![Convex](https://img.shields.io/badge/Database-Convex-brightgreen)](https://convex.dev)
 
-## 🚀 Technologies Used 🚀
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](https://github.com/Isaiahpeoples/GetFit.ai)
+[![Live](https://img.shields.io/badge/Live-Preview-brightgreen)](https://get-fit-ai.vercel.app/)
 
-- **Next.js**: React framework for building the frontend and API routes
-- **Tailwind CSS & Shadcn UI**: For styling and UI components
-- **Clerk**: Authentication and user management
-- **Vapi**: Voice agent platform for conversational AI
-- **Convex**: Real-time database
-- **Gemini AI**: Large Language Model for generating personalized fitness programs
+</div>
+<br/>
 
-## 📑 Key Features 📑
+## 💡 Project Overview
 
-- **Smart AI Assistant**: Engage in conversation with an AI that asks about your fitness goals, physical condition, and preferences
-- **Personalized Workout Plans**: Get custom exercise routines based on your fitness level, injuries, and goals
-- **Diet Recommendations**: Receive personalized meal plans accounting for your allergies and dietary preferences
-- **User Authentication**: Sign in with GitHub, Google, or email/password
-- **Program Management**: Create and view multiple fitness programs with only the latest one active
-- **Responsive Design**: Beautiful UI that works across all devices
+**GetFit.ai** is a modern AI-powered fitness assistant that offers personalized workouts, diet plans, and real-time voice coaching. Built with **Next.js**, **Tailwind CSS**, **Vapi**, and **Gemini AI**, it allows users to converse naturally with an AI agent to receive custom health and fitness programs—all with responsive design and seamless authentication.
+
+<br/>
+
+## 🚀 Technologies Used
+
+| Technology     	| Description                                                                        	|
+|--------------------|----------------------------------------------------------------------------------------|
+| **Next.js**    	| ⚛️ React framework for full-stack application and routing.                         	|
+| **Tailwind CSS**   | 🎨 Utility-first CSS framework for styling.                                         	|
+| **Shadcn UI**  	| 🧩 Prebuilt UI components integrated with Tailwind CSS.                            	|
+| **Clerk**      	| 🔐 Authentication system with social login options.                               	|
+| **Vapi**       	| 🗣️ AI-powered voice interface for conversation-based interactions.                 	|
+| **Convex**     	| ⚡ Real-time backend and database for program storage.                             	|
+| **Gemini AI**  	| 🧠 LLM used for creating personalized workout and meal plans.                      	|
+
+<br/>
+
+## 📸 Project Screenshot
+
+![GetFit.ai Preview](https://online-project-images.s3.us-east-2.amazonaws.com/getfit/GetFit-1.png)
+
+*A voice-first fitness assistant powered by AI, showing personalized programs and coaching interface.*
+
+<br/>
+
+## 📑 Key Features
+
+- 🎤 **Voice-Based AI Coaching** – Converse with your assistant about goals, routines, and preferences.
+- 🏋️ **Custom Workouts** – Personalized plans based on user input, goals, and injuries.
+- 🥗 **Smart Meal Plans** – Tailored to dietary needs, allergies, and preferences.
+- 🔐 **Clerk Authentication** – Secure user login via Google, GitHub, or email/password.
+- 📋 **Program Management** – View history, track active programs, and switch as needed.
+- 📱 **Fully Responsive** – Optimized layout across phones, tablets, and desktops.
+
+<br/>
 
 ## 🔧 Installation & Setup 🔧
 
@@ -78,9 +109,11 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+<br/>
+
 ## 📂 Project Structure 📂
 
-- **/app: Main application directory with API routes and pages**
+- **/app: Next.js routes and API endpoints**
 
 - **/components: UI components and forms**
 
@@ -89,6 +122,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - **/convex: Convex backend functions for program handling**
 
 - **/public: Static assets and images**
+
+<br/>
 
 ## 📌 Learn More 📌
 
@@ -99,6 +134,15 @@ To learn more about the technologies used in this project:
 - [Vapi Documentation](https://docs.vapi.ai)
 - [Convex Documentation](https://docs.convex.dev)
 - [Gemini AI Documentation](https://ai.google.dev/gemini-api)
+
+<br/>
+
+## 🌐 Live Demo
+
+Check out the live version:  
+👉 [GetFit.ai Live Demo](https://get-fit-ai.vercel.app/)
+
+<br/>
 
 ### ⭐️ Support ⭐️
 If you found this project helpful or interesting, please give it a ⭐️! Your support helps to grow the project and boosts visibility. Thank you!
